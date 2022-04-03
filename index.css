@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /*====================================================NAIGATION BAR=========================================================*/
+
+.navigation-bar{
+    padding: 20px;
+    background-color: #4C0C47;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap:2em;
+}
+    /*====================================================HEADER=========================================================*/
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #4C0C47;
+
+}
+
+.header-wrapper img{
+    margin-top: 5%;
+    width: 200px;
+    height:290px;
+    align-self: center;
+    border-radius: 125px;
+    /* vertical-align: middle; */
+}
+.header-wrapper p{
+     align-self: center; 
+     line-height: 3;
+     color: white;  
+}
+
+.socialmedia {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    gap:2em;
+    margin-bottom: 3%;
+
+
+}
+.socialmedia a {
+    color: white;
+}
+
+    /*====================================================MAIN=========================================================*/
+
+.WHO-wrapper{
+   margin-top: 2%;
+   text-align: center;
+}
+.WHO-wrapper p{
+    margin: 5px 45px 0px 45px;
+    line-height: 2;
+}
+
+.skills-wrapper{
+   margin-top: 2%;
+   text-align: center;
+}
+
+.skills-wrapper p{
+     margin: 5px 45px 0px 45px;
+    line-height: 2; 
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+ .btn button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:120px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px solid #f1f1f1;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    box-sizing: none;
+    position: relative;
+    top:7px;
+    left:10px;
+}
+
+.projects-wrapper{
+    margin-top: 2%;
+   text-align: center;
+}
+
+.projects-wrapper p{
+     margin: 5px 45px 0px 45px;
+    line-height: 2; 
+}
+
+  .links{
+    cursor: pointer;
+     margin-top: 1.5em;
+     --num-cols: 2;
+     --row-height: 50px;
+     box-sizing: border-box;
+     display: grid;
+     grid-template-columns: repeat(var(--num-cols), 1fr);
+     grid-auto-rows: var(--row-height);
+  }
+
+  a{
+     color: black;
+     text-decoration: none;
+  }
+
+      /*====================================================CONTACT========================================================*/
+
+  .contact-wrapper{
+    margin-top: 1%;
+   text-align: center;
+   background-color: #4C0C47;
+   color: white;
+   padding: 10px;
+}
+
+
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5em
+}
+input{
+        margin-top: 1%;
+        height: 40px;
+        padding: 10px;
+        width: 600px;
+}
+
+textarea{
+        margin-top: 1%;
+        height: 60px;
+        padding: 10px;
+        width: 600px;
+}
+
+.contact-wrapper button{
+    width: 600px;
+    height: 40px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: #f1f1f1;
+
+}
+
+ /*=======================================================MEDIAQUERIES==========================================================*/
+ 
+ @media only screen and (max-width: 480px) and (min-width: 320px) {
+     html,
+     body {
+         width: 140%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+    }
+ @media only screen and (max-width: 768px) and (min-width: 481px) {
+     html,
+     body {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+    }
+     @media only screen and (max-width: 1024px) and (min-width: 769px) {
+     html,
+     body {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+    }
