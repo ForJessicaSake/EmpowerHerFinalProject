@@ -54,12 +54,14 @@ ul li a{
     display: flex;
     justify-content: space-around;
     gap:2em;
-    margin-bottom: 7%;
-
-
+    margin-bottom:7%;
 }
 .socialmedia a {
     color: white;
+}
+
+.socialmedia i{
+     margin: 0% 2% 0% 5%;
 }
 
     /*====================================================MAIN=========================================================*/
